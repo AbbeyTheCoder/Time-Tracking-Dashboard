@@ -1,0 +1,17 @@
+main#activities {
+  display: grid;
+  gap: 20px;
+  width: fit-content;
+}
+
+@media (min-width: 800px) {
+  body {
+    margin: 0;
+  }
+  main#activities {
+    margin: 20px;
+    width: calc(80vw);
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 30px;
+  }
+}
