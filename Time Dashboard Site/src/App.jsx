@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Profile from "./Profile";
-import Activity from "./Activity";
+import Profile from "./Profile Card/Profile";
+import Activity from "./Activity Card/Activity";
 import "./App.css";
 
 // Cards Colours

@@ -1,10 +1,11 @@
 import profileStyle from "./Profile.module.css";
+import profilePic from "../assets/images/image-jeremy.png";
 
 function Profile({ timeFrameClick }) {
   return (
     <div id={profileStyle.container}>
       <header>
-        <img src="src/assets/images/image-jeremy.png" alt="User Profile Pic" />
+        <img src={profilePic} alt="User Profile Pic" />
         <div>
           <p>Report for</p>
           <p className={profileStyle.user_name}>

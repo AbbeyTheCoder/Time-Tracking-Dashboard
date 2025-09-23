@@ -1,6 +1,5 @@
 import activityStyle from "./Activity.module.css";
-import ellipsis from "./assets/images/icon-ellipsis.svg";
-import "./index.css";
+import ellipsis from "../assets/images/icon-ellipsis.svg";
 
 function Activity({ data, timeframe, bgColor, bgImg }) {
   return (
