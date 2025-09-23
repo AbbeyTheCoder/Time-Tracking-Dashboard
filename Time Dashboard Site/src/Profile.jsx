@@ -1,6 +1,6 @@
 import profileStyle from "./Profile.module.css";
 
-function Profile() {
+function Profile({ timeFrameClick }) {
   return (
     <div id={profileStyle.container}>
       <header>
@@ -15,9 +15,15 @@ function Profile() {
       </header>
 
       <section className={profileStyle.time_interval}>
-        <button>Daily</button>
-        <button>Weekly</button>
-        <button>Monthly</button>
+        <button onClick={timeFrameClick} data-timeframe="daily">
+          Daily
+        </button>
+        <button onClick={timeFrameClick} data-timeframe="weekly">
+          Weekly
+        </button>
+        <button onClick={timeFrameClick} data-timeframe="monthly">
+          Monthly
+        </button>
       </section>
     </div>
   );
