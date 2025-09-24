@@ -33,7 +33,7 @@ function App() {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch("../public/data.json");
+      const res = await fetch("/data.json");
       const d = await res.json();
       setData(d);
     }
