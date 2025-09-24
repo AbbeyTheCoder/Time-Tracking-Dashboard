@@ -1,5 +1,5 @@
 import profileStyle from "./Profile.module.css";
-import profilePic from "../assets/images/image-jeremy.png";
+import profilePic from "/images/image-jeremy.png";
 
 function Profile({ timeFrameClick }) {
   return (

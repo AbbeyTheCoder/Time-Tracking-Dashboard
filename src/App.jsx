@@ -14,12 +14,12 @@ const bgColor = [
 ];
 // Cards Images urls
 const bgImage = [
-  "url(src/assets/images/icon-work.svg)",
-  "url(src/assets/images/icon-play.svg)",
-  "url(src/assets/images/icon-social.svg)",
-  "url(src/assets/images/icon-exercise.svg)",
-  "url(src/assets/images/icon-study.svg)",
-  "url(src/assets/images/icon-self-care.svg)",
+  "url(/icon-work.svg)",
+  "url(/icon-play.svg)",
+  "url(/icon-social.svg)",
+  "url(/icon-exercise.svg)",
+  "url(/icon-study.svg)",
+  "url(/icon-self-care.svg)",
 ];
 
 function App() {
